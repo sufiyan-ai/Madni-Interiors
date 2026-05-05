@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-serif: var(--font-garamond);         /* EB Garamond — section headings */
+  --font-display: var(--font-lora);           /* Lora — pull quotes, subheadings */
+  --font-sans: var(--font-outfit);            /* Outfit — body, UI */
+  --font-stix: 'STIX Two Text', serif;        /* STIX Two Text — numbers, stats */
+  --font-hero-brand: var(--font-archivo); /* Archivo 900 — hero "Madni" */
+  --font-hero-tagline: var(--font-playfair);  /* Playfair Display — hero "Interiors" */
+
+  /* Brand Colours */
+  --color-brand-dark: #122419;
+  --color-brand-green: #1f3d2b;
+  --color-brand-gold: #c8a75a;
+  --color-brand-gold-light: #d4ba7a;
+}
+
+/* Pull-quote / testimonial italic style */
+.font-lora-italic {
+  font-family: var(--font-lora), serif;
+  font-style: italic;
+}
+
+/* STIX numerals */
+.font-stix {
+  font-family: 'STIX Two Text', serif;
+}
